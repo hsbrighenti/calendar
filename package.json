@@ -4,7 +4,11 @@
   "description": "Simple Calendar Web App made with React and Typescript as the Jobsity Recruitment Proccess chalenge",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "parcel src/index.html --port 8080 --cache-dir dist/cache --open",
+    "build": "parcel build index.html",
+    "lint": "npm run compile && npm run eslint",
+    "eslint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "compile": "tsc"
   },
   "repository": {
     "type": "git",
@@ -21,5 +25,20 @@
   "bugs": {
     "url": "https://github.com/hsbrighenti/calendar/issues"
   },
-  "homepage": "https://github.com/hsbrighenti/calendar#readme"
+  "homepage": "https://github.com/hsbrighenti/calendar#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint": "^7.8.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
