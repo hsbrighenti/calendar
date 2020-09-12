@@ -1,0 +1,25 @@
+{
+  "name": "calendar",
+  "version": "0.0.1",
+  "description": "Simple Calendar Web App made with React and Typescript as the Jobsity Recruitment Proccess chalenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsbrighenti/calendar.git"
+  },
+  "keywords": [
+    "React",
+    "TypeScript",
+    "Calendar",
+    "Jobsity"
+  ],
+  "author": "Henrique S. Brighenti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hsbrighenti/calendar/issues"
+  },
+  "homepage": "https://github.com/hsbrighenti/calendar#readme"
+}
