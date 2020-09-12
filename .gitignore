@@ -1,0 +1,16 @@
+# Generated Files
+dist/
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# misc
+.DS_Store
