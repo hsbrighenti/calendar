@@ -1,8 +1,5 @@
-import React from 'react'
+import React from 'react';
 import { render } from 'react-dom';
-import HelloMessage from './src/HelloMessage';
+import App from './src/App';
 
-render(
-  <HelloMessage />,
-  document.getElementById('app-root')
-);
+render(<App />, document.getElementById('app-root'));

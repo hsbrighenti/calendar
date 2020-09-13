@@ -1,0 +1,22 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.week {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.week > * {
+  border: 0.005rem solid #000000;
+  flex: 1;
+}
+
+.week-days {
+  background-color: #1e90ff;
+  color: #ffffff;
+  text-align: center;
+}
