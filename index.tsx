@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom';
-import HelloMessage from './HelloMessage';
+import HelloMessage from './src/HelloMessage';
 
 render(
   <HelloMessage />,

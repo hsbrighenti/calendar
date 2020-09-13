@@ -10,13 +10,16 @@
     "plugins": [
         "@typescript-eslint",
         "react",
-        "react-hooks"
+        "react-hooks",
+        "testing-library"
     ],
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:react/recommended",
-        "plugin:react-hooks/recommended"
+        "plugin:react-hooks/recommended",
+        "plugin:testing-library/recommended",
+        "plugin:testing-library/react"
     ],
     "settings": {
         "react": {
